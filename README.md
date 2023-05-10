@@ -1,11 +1,13 @@
 # java-pg-docker
 
-Build with:
+Build with :
 - Java JDK 17
 - Postgres 12
 - Maven
 - Spring boot 3
 - Docker
+- JWT spring library
+- Swagger / OpenAPI
 
 Setup
 - clone this repository
