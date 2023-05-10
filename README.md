@@ -22,3 +22,10 @@ Run via terminal
 
 How to see API:
 - open this link in your browser : http://localhost:8080/swagger-ui/index.html#/
+
+
+Troubleshooting:
+1. Docker image failed to build:
+- This app build using apple silicon and package in docker is using linux/x86_64. So maybe removing "platform: linux/x86_64" in docker-compose.yml file will solve this. 
+- delete docker images
+- rerun Run via docker instruction
